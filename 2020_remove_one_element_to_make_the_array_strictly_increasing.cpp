@@ -16,3 +16,20 @@ public:
         return true;
     }
 };
+
+approach : greedy+ one pass(counter)
+5️⃣ Classic Problems Using SAME Greedy Pattern 🔥
+Problem	Greedy Action
+Remove One Element to Make Array Increasing	Fix violation immediately
+Non-decreasing Array (LeetCode 665)	Same logic
+Valid Parentheses with One Removal	Counter + local fix
+Almost Sorted Array	One-pass correction
+String with One Deletion Palindrome	Two-pointer greedy
+6️⃣ Interview Rule (MEMORIZE THIS)
+
+If the problem says “at most one change” + array order → GREEDY
+
+7️⃣ One-Line Memory Trick 🧠
+
+“Count violations. If more than allowed → false.
+Fix locally using neighbors.”
