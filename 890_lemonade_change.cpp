@@ -1,3 +1,34 @@
+Method used in this problem
+Queue-based Greedy (State Tracking)
+
+You can write in your notes like this:
+
+Method: Greedy + Queue order
+Technique: State tracking using counters
+
+How to write in your notebook (recommended format)
+📌 Problem: Lemonade Change
+
+Pattern / Method:
+
+Queue processing
+
+Greedy choice
+
+Counter-based state tracking
+
+Why this method:
+
+Customers must be served in order
+
+Each decision depends on current money
+
+Choose best possible change at each step
+
+Process in order + keep counts + greedy change choice
+
+
+code:
 class Solution {
 public:
     bool lemonadeChange(vector<int>& bills) {
