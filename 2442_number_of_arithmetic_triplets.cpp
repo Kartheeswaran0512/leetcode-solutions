@@ -1,3 +1,15 @@
+Approach Name (write this):
+
+Three Pointer / Two Pointer (Extension) Approach
+
+You can write either of these (both are accepted):
+
+Two Pointer Technique (Extended to 3 pointers)
+
+Three Pointer Approach on Sorted Array
+
+2367 | Number of Arithmetic Triplets | Array | Two Pointer (3 ptr) | O(n) | O(1) | Sorted array, fixed diff
+
 class Solution {
 public:
     int arithmeticTriplets(vector<int>& nums, int diff) {
