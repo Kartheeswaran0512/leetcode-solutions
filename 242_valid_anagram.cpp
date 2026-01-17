@@ -1,3 +1,7 @@
+only lowercase letter - array used 
+all language (unicode,emoji etc) - hashmap
+
+code:
 class Solution {
 public:
     bool isAnagram(string s, string t) {
