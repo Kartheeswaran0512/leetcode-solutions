@@ -1,3 +1,10 @@
+frequnency array  - int freq[26]={0}
+t/c-o(n)
+s/c-o(1) - 26 lowercase letters
+unordered map- o(n) 
+    s/c-o(n)
+
+code:
 class Solution {
 public:
     int firstUniqChar(string s) {
